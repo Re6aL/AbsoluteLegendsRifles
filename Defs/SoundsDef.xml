@@ -45,7 +45,7 @@
     </subSounds>
   </SoundDef>
   
-    <!-- ======= French Kiss sounds ========= -->
+    <!- ======= French Kiss sounds ========= -->
 
   <SoundDef>
     <defName>Shot_AL_FrenchKiss</defName>  
@@ -88,6 +88,5 @@
       </li>
     </subSounds>
   </SoundDef>
-  
 
 </Defs>
