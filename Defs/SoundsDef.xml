@@ -45,10 +45,10 @@
     </subSounds>
   </SoundDef>
   
-    <!- ======= French Kiss sounds ========= -->
+    <!- ======= PMNine sounds ========= -->
 
   <SoundDef>
-    <defName>Shot_AL_FrenchKiss</defName>  
+    <defName>Shot_AL_PMNine</defName>  
     <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -56,7 +56,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Rifle/Shot_AL_FrenchKiss</clipPath>
+            <clipPath>Rifle/Shot_AL_PMNine</clipPath>
           </li>
         </grains>      
         <pitchRange>
@@ -69,7 +69,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Interact_AL_FrenchKiss</defName>  
+    <defName>Interact_AL_PMNine</defName>  
     <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -77,7 +77,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Rifle/Interact_AL_FrenchKiss</clipPath>
+            <clipPath>Rifle/Interact_AL_PMNine</clipPath>
           </li>
         </grains>      
         <pitchRange>
