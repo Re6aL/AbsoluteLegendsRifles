@@ -2,12 +2,6 @@
 <Manifest>
     <identifier>AbsoluteLegendsRifles</identifier>
     <version>1.0.0</version>
-    <suggests>
-		<li>AbsoluteLegendsHair</li>
-		<li>AbsoluteLegendsGuns</li>
-		<li>AbsoluteLegendsGuns-CE</li>
-    </suggests>
-    <showCrossPromotions>true</showCrossPromotions>
     <manifestUri>https://raw.githubusercontent.com/Re6aL/AbsoluteLegendsRifles/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/Re6aL/Glass_Drum_Bullpup_Rifle_CE_Patch/</downloadUri>
 </Manifest>
