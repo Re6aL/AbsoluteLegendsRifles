@@ -166,19 +166,19 @@
     </modExtensions>
   </ThingDef>
 
-<!-- ==================== PMNine ==================== -->
+<!-- ==================== WH40K ==================== -->
 
   <ThingDef ParentName="BaseHumanMakeableGun_CE">
-    <defName>AL_Gun_PMNine</defName>
-    <label>PM9</label>
-    <description>Extremely lightweight submachinegun which is easy to assemble. The idea behind this unusual and little-known weapon is to provide a compact and easily concealable weapon with low felt recoil. You may find this gun much earlier than other submachine guns.</description>
+    <defName>AL_Gun_WH40K</defName>
+    <label>WH40K Gun</label>
+    <description>Some WH40K gun which is kinda cool. Now shoots 9mm pistol rounds.</description>
     <graphicData>
-      <texPath>Things/Weapons/PMNine</texPath>
+      <texPath>Things/Weapons/WH40K</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_AL_PMNine</soundInteract>
     <statBases>
-      <WorkToMake>14500</WorkToMake>
+      <WorkToMake>15000</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
       <ShotSpread>0.9</ShotSpread>
       <SwayFactor>1</SwayFactor>
@@ -193,7 +193,8 @@
     </weaponTags>
     <costList>
       <Steel>35</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+	  <WoodLog>10</WoodLog>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
