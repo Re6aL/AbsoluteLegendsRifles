@@ -1321,4 +1321,102 @@
       </li>
     </modExtensions>
   </ThingDef>
+  
+  <!-- ==================== Wesley Snipe ==================== -->
+  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+    <defName>AL_Gun_green</defName>
+    <label>Wesley green</label>
+    <description>oh god no please no god , NOOOOOOOO!</description>
+    <graphicData>
+      <texPath>Weapons/green</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.6</drawSize>
+    </graphicData>
+    <soundInteract>Interact_AL_WesleySnipe</soundInteract>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <SightsEfficiency>2.9</SightsEfficiency>
+      <ShotSpread>0.035</ShotSpread>
+      <SwayFactor>1.5</SwayFactor>
+      <Bulk>10</Bulk>
+      <Mass>8.1</Mass>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>35</Steel>
+      <Plasteel>15</Plasteel>
+      <WoodLog>10</WoodLog>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Chemfuel>25</Chemfuel>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762x54mmR_FMJ</defaultProjectile>
+        <warmupTime>1.6</warmupTime>
+        <range>67</range>
+        <soundCast>Shot_AL_WesleySnipe</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>11</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>7</magazineSize>
+        <reloadTime>4</reloadTime>
+        <ammoSet>AmmoSet_762x54mmR</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+    <weaponTags>
+	  <li>SniperRifle</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+    </recipeMaker>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetrationBlunt>1.3</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.2</DrawSize>
+        <DrawOffset>0.11,0.18</DrawOffset>
+      </li>
+    </modExtensions>
+  </ThingDef>
 </Defs>

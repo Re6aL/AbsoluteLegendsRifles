@@ -12,6 +12,7 @@
 				<xpath>Defs/ThingDef[defName="AL_Gun_WesleySnipe"
 				or defName="AL_Gun_something"
 				or defName="AL_Gun_Nooice"
+				or defName="AL_Gun_green"
 				or defName="AL_Gun_SportRifle"
 				or defName="AL_Gun_M2R"
 				or defName="AL_Gun_IndSnip"]</xpath>
