@@ -9,7 +9,12 @@
 				<modName>RunAndGun</modName>
 			</li>
 			<li Class="PatchOperationAddModExtension">
-				<xpath>Defs/ThingDef[defName="AL_Gun_WesleySnipe" or defName="AL_Gun_WesleySnipe2" or defName="AL_Gun_WesleySnipe3" or defName="AL_Gun_WesleySnipe4" or defName="AL_Gun_WesleySnipe5"]</xpath>
+				<xpath>Defs/ThingDef[defName="AL_Gun_WesleySnipe"
+				or defName="AL_Gun_something"
+				or defName="AL_Gun_Nooice"
+				or defName="AL_Gun_SportRifle"
+				or defName="AL_Gun_M2R"
+				or defName="AL_Gun_IndSnip"]</xpath>
 				<value>
 					<li Class="RunAndGun.DefModExtension_SettingDefaults">
 						<weaponForbidden>true</weaponForbidden>

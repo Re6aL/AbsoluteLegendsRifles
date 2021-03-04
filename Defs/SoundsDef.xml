@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-    <!-- ========= Wesley REDODODO ============= -->
-
-  <!-- SoundDef>
-    <defName>Shot_AL_GlassRifle</defName>  
+    <!-- ========= WesleySnipe ============= -->
+  <SoundDef>
+    <defName>Shot_AL_WesleySnipe</defName>  
     <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -12,7 +10,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Rifle/Shot_AL_GlassRifle</clipPath>
+            <clipPath>Rifle/Shot_AL_WesleySnipe</clipPath>
           </li>
         </grains>      
         <pitchRange>
@@ -25,7 +23,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Interact_AL_GlassRifle</defName>  
+    <defName>Interact_AL_WesleySnipe</defName>  
     <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -33,7 +31,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Rifle/Interact_AL_GlassRifle</clipPath>
+            <clipPath>Rifle/Interact_AL_WesleySnipe</clipPath>
           </li>
         </grains>      
         <pitchRange>
@@ -44,9 +42,7 @@
       </li>
     </subSounds>
   </SoundDef>
-  
-    <!- ======= PMNine sounds ========= -->
-
+      <!-- ======= PMNine sounds ========= -->
   <SoundDef>
     <defName>Shot_AL_PMNine</defName>  
     <context>MapOnly</context>
