@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>AbsoluteLegendsRifles</identifier>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <dependencies>
     </dependencies>
     <incompatibleWith>
@@ -11,9 +11,9 @@
     <loadAfter>
     </loadAfter>
     <suggests>
-        <li>2195744587</li> <!-- ALHair -->
-        <li>2162631828</li> <!-- ALG -->
-        <li>2162632774</li> <!-- ALG CE -->
+        <li>AbsoluteLegendsHair</li> <!-- ALHair -->
+        <li>AbsoluteLegendsGuns</li> <!-- ALG -->
+        <li>AbsoluteLegendsGuns-CE</li> <!-- ALG CE -->
     </suggests>
     <showCrossPromotions>true</showCrossPromotions>
     <manifestUri>https://raw.githubusercontent.com/Re6aL/AbsoluteLegendsRifles/master/About/Manifest.xml</manifestUri>
