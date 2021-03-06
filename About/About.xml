@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<name>Absolute Legends Riflez</name>
+<name>Absolute Legends Riflez [CE Only]</name>
 <author>RE6AL</author>
 	<supportedVersions>
 		<li>1.2</li>
 	</supportedVersions>
 	<packageId>Absolute.Legends.Riflez</packageId>
-<description>Abso-Lutely legendary rifles are
-WIP (not so much) PLAYABLE for now.
-
+<description>Abso-Lutely legendary rifles WIP testing and balancing now.
 [Combat Extended Only]
-14(why so many!) guns, most of them are snipers but there're also carbin, shotguns and just.. rifles you know. I had a lot of fun drawing these but some textures (only the ugly ones) are super-fast remade reference images.
+
+14(why so many!) guns, 5 of them are snipers but there're also carbin, shotguns and just.. rifles you know. I had a lot of fun drawing these but some textures (only the ugly ones) are super-fast remade reference images.
 have fun.
 TO DO: create sounds, edit code, re-make some textures.
 
