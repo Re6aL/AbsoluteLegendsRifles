@@ -2,7 +2,7 @@
 <Defs>
     <!-- ========= WesleySnipe ============= -->
   <SoundDef>
-    <defName>Shot_AL_WesleySnipe</defName>  
+    <defName>Shot_AL_Leza</defName>  
     <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -10,7 +10,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Rifle/Shot_AL_WesleySnipe</clipPath>
+            <clipPath>Rifle/Shot_AL_Leza</clipPath>
           </li>
         </grains>      
         <pitchRange>
@@ -23,7 +23,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Interact_AL_WesleySnipe</defName>  
+    <defName>Interact_AL_Leza</defName>  
     <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -31,7 +31,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Rifle/Interact_AL_WesleySnipe</clipPath>
+            <clipPath>Rifle/Interact_AL_Leza</clipPath>
           </li>
         </grains>      
         <pitchRange>
@@ -44,7 +44,7 @@
   </SoundDef>
       <!-- ======= PMNine sounds ========= -->
   <SoundDef>
-    <defName>Shot_AL_PMNine</defName>  
+    <defName>Shot_AL_m2r</defName>  
     <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -52,7 +52,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Rifle/Shot_AL_PMNine</clipPath>
+            <clipPath>Rifle/Shot_AL_m2r</clipPath>
           </li>
         </grains>      
         <pitchRange>
@@ -65,7 +65,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Interact_AL_PMNine</defName>  
+    <defName>Interact_AL_m2r</defName>  
     <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -73,7 +73,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Rifle/Interact_AL_PMNine</clipPath>
+            <clipPath>Rifle/Interact_AL_m2r</clipPath>
           </li>
         </grains>      
         <pitchRange>
