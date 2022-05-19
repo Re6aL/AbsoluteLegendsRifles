@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>AbsoluteLegendsRifles</identifier>
-    <version>0.3.0</version>
+    <version>0.4.0</version>
     <dependencies>
     </dependencies>
     <incompatibleWith>
@@ -13,7 +13,7 @@
     <suggests>
         <li>AbsoluteLegendsHair</li> <!-- ALHair -->
         <li>AbsoluteLegendsGuns</li> <!-- ALG -->
-        <li>AbsoluteLegendsGuns-CE</li> <!-- ALG CE -->
+        <li>RE6AL.CombatMachete</li> <!-- ALG CE -->
     </suggests>
     <showCrossPromotions>true</showCrossPromotions>
     <manifestUri>https://raw.githubusercontent.com/Re6aL/AbsoluteLegendsRifles/master/About/Manifest.xml</manifestUri>
